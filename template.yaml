@@ -63,6 +63,3 @@ Outputs:
   ServerlessTestFunction:
     Description: "App Lambda Function ARN"
     Value: !GetAtt ServerlessTestFunction.Arn
-  ServerlessTestFunctionIamRole:
-    Description: "Implicit IAM Role created for App function"
-    Value: !GetAtt ServerlessTestFunction.Arn
